@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <form  class='form' action="">
+        <h1>Temperature Conversion:</h1>
+        
+        <input type="number" id="data"><br>
+
+        <input type="radio" id="fahrenheit" name="weather">
+        <label for="fahrenheit">Celsius &#8667; fahrenheit</label><br>
+
+        <input type="radio" id="celsius" name="weather">
+        <label for="celsius">Fahrenheit &#8667; celsius</label><br>
+
+        <button id="btn" onclick="convert()">Convert</button>
+        <p id="result"></p>
+    </form>
+    <script src="weather.js"></script>
+</body>
+</html>
